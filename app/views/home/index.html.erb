@@ -1,0 +1,11 @@
+    <div class="text-center"> 
+<% if user_signed_in? %>
+    <h1>Hola <%= current_user.email %>, Bienvenido </h1>
+<% end %>
+<%= link_to 'Dale registrate o conectate' , new_user_session_path %>
+    <div>
+
+<div class="col card">
+    <%= image_tag "portada.jpg", alt: "IMAGEN DE PORTADA" %>
+    <div>
+<div class="text-center"> 

@@ -1,0 +1,19 @@
+<div id="<%= dom_id post %>">
+  <p>
+    <strong>Image:</strong>
+    <%= post.image %>
+  </p>
+
+  <p>
+    <strong>Title:</strong>
+    <%= post.title %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= post.description %>
+  </p>
+
+  <%= image_tag post.image, class: 'card-img-top' %>
+
+</div>
